@@ -17,7 +17,6 @@ int main() {
         
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                // Hoan doi
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -38,3 +37,4 @@ int main() {
     
     return 0;
 }
+
