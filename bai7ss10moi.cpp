@@ -11,7 +11,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Nh?p s? c?n t?m
     printf("Nhap so can tim: ");
     scanf("%d", &target);
 
@@ -40,3 +39,4 @@ int main() {
 
     return 0;
 }
+
