@@ -31,7 +31,6 @@ int main() {
     printf("Nhap ma san pham (index): ");
     scanf("%d", &id);
 
-    // Ki?m tra index h?p l?
     if (id < 0 || id >= n) {
         printf("Khong tim thay\n");
         return 0;
@@ -61,3 +60,4 @@ int main() {
 
     return 0;
 }
+
