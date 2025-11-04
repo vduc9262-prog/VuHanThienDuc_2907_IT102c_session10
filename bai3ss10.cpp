@@ -4,7 +4,7 @@ int main() {
     printf("Nhap so phan tu cua mang: ");
     scanf("%d", &n);
 
-    int arr[100]; // Gia su toi da 100 phan tu
+    int arr[100];
 
     printf("Nhap cac phan tu cua mang:\n");
     for (int i = 0; i < n; i++) {
@@ -32,3 +32,4 @@ int main() {
 
     return 0;
 }
+
